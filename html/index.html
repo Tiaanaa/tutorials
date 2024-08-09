@@ -8,10 +8,10 @@
 </head>
 <body>
     <div class="measurements">
-        <div>
-            <form action="" method="post">
-                <label for="selection">Select your style</label><br>
-                <input type="file" name="selection"><br>
+        <form action="" method="post">
+            <label for="selection">Select your style</label><br>
+            <input type="file" name="selection"><br>
+            <div class="horinzontal">
                 <h3>HORINZONTAL MEASUREMENTS</h3>
                 <label for="shoulder">Shoulder</label><br>
                 <input type="number" name="shoulder"><br>
@@ -25,10 +25,8 @@
                 <input type="number" name="hip"><br>
                 <label for="roundsleeve">Round Sleeve</label><br>
                 <input type="number" name="roundsleeve"><br>
-            </form>
-        </div>
-        <div>
-            <form action="" method="post">
+            </div>   
+            <div class="vertical">
                 <h3>VERTICAL MEASUREMENTS</h3>
                 <label for="N2C">Neck to Chest</label><br>
                 <input type="number" name="N2C"><br>
@@ -46,10 +44,10 @@
                 <input type="number" name="FL"><br>
                 <label for="SL">Sleeve Length</label><br>
                 <input type="number" name="SL"><br>
-    
-                <button type="submit">Submit</button>
-                <button type="reset">Reset</button>
-            </form>
+            </div>     
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
         </div>
     </div>
 </body>

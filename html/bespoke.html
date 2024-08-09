@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bespoke Order</title>
+    <link rel="stylesheet" href="../css/bespoke.css">
+</head>
+<body>
+    <form action="" method="get">
+        <table>
+            <caption>MEASUREMENTS</caption>
+            <thead>
+                <tr>
+                    <th>
+                        vertical measurements
+                    </th>
+                    <th>
+                        horinzontal measurements
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <label for="N2C">Neck to Chest</label>
+                        <input type="number" name="N2C">
+                    </td>
+                    <td>
+                        <label for="shoulder">Shoulder</label>
+                        <input type="number" name="shoulder">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NBP">Neck to Burst Point</label>
+                        <input type="number" name="NBP">
+                    </td>
+                    <td>
+                        <label for="burst">Burst</label>
+                        <input type="number" name="burst">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="NUB">Neck to Under Burst</label>
+                        <input type="number" name="NUB">
+                    </td>
+                    <td>
+                        <label for="rub">Round Under Burst</label>
+                        <input type="number" name="rub">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="N2W">Neck to Waist</label>
+                        <input type="number" name="N2W">
+                    </td>
+                    <td>
+                        <label for="waist">Waist</label>
+                        <input type="number" name="waist">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <label for="unit">select unit of measurements</label><br>
+        <select name="unit" id="" required>
+            <option value="inches">inches</option>
+            <option value="cm">cm</option>
+            <option value="m">m</option>
+        </select><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
