@@ -3,18 +3,19 @@
     margin: 0;
 }
 body{
+    display: flex;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     background: black;
     color: #f4f4f4;
+    height: 100vh;
+    font-optical-sizing: auto;
 }
 
 form{
-    border: 2px solid gray;
-    padding: 4px;
-    margin: auto;
-    width: 50%; 
     height: auto;
+    padding: 40px 80px;
+    margin: auto;
    text-align: justify; 
 }
 table{
@@ -26,7 +27,6 @@ table{
 }
 
 th, td {
-    border: 2px solid rgb(170, 166, 166); /* Border around table cells */
     padding: 8px; /* Adds spacing inside cells */
     border-radius: 5px;
 }
